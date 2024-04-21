@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">daisyUI</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Catalog</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Button</a>
+        </div>
+      </div>
+    </header> 
+    <section class="bg-gradient-to-r from-[#211C24] to-[#211C24] tracking-tight h-[769px] lg:h-auto overflow-hidden">
+      <div
+        class="container mx-auto px-4 lg:flex lg:justify-between lg:items-center">
+        <div class="text-center lg:text-left pt-20 lg:pt-0">
+          <p class="text-[#909090] text-2xl mb-4 lg:mb-6">Pro.Beyond.</p>
+          <h1 class="text-white text-7xl font-light mb-4 lg:mb-6">
+            IPhone 14 <span class="font-bold">Pro</span>
+          </h1>
+          <p class="text-[#909090] text-xl mb-8 lg:mb-6">
+            Created to change everything for the better. For everyone
+          </p>
+          <button class="btn btn-outline border-white text-white font-medium rounded-md px-14 py-4 hover:bg-white hover:text-black">Shop Now</button>
+        </div>
+        <img
+          class=""
+          src="./src/assets/hero-img.png"
+          alt="iphone 14 Pro image" />
+      </div>
+    </section>
+    <!-- <section class="banners">
+      <div class="banner">
+        <img src="./src/assets/banner-playstation.png" alt="playstation 5" />
+        <div class="">
+          <h2 class="text-5xl font-medium">Playstation 5</h2>
+          <p>
+            Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will
+            redefine your PlayStation experience.
+          </p>
+        </div>
+      </div>
+      <div class="banner text-5xl">
+        <img src="./src/assets/banner-mac-air.png" alt="macbook air" />
+        <div>
+          <h2 class="">Macbook<span class="font-bold">Air</span></h2>
+          <p>
+            Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will
+            redefine your PlayStation experience.
+          </p>
+        </div>
+      </div>
+      <div class="banner">
+        <img src="./src/assets/banner-pods.png" alt="apple airpods max" />
+        <div class="">
+          <h2 class="text-3xl">Apple AirPods<span class="font-bold">Max</span>
+          </h2>
+          <p>
+            Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will
+            redefine your PlayStation experience.
+          </p>
+        </div>
+      </div>
+      <div class="banner">
+        <img src="./src/assets/banner-vision-pro.png" alt="apple vision pro" />
+        <div class="">
+          <h2 class="text-3xl">
+            Apple <br />
+            Vision<span class="font-bold">Pro</span><br />
+          </h2>
+          <p>
+            Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will
+            redefine your PlayStation experience.
+          </p>
+        </div>
+      </div>
+    </section> -->
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
