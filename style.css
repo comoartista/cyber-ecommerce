@@ -103,3 +103,39 @@ body {
   font-size: 14px;
   line-height: 24px;
 } */
+
+/* BROWSE-CATEGORY SECTION */
+.browse-category__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.browse-category__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 24px 0 24px;
+  background-color: #ededed;
+  width: 160px;
+  border-radius: 15px;
+}
+
+/* BROWSE-CATEGORY SLIDER */
+.swiper {
+  width: 1120px;
+  height: 300px;
+}
+
+
+
+.browse-category-prev.swiper-button-disabled,
+.browse-category-next.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
